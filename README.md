@@ -34,6 +34,10 @@ https://github.com/idank/bashlex
 ## C/C++ ##
 http://clang.llvm.org/docs/LibASTMatchersReference.html?
 http://stackoverflow.com/questions/18560019/how-to-view-clang-ast
+~~~bash
+clang -emit-ast hello.c  #binary output to hello.ast
+clang-check -ast-dump hello.c
+~~~
 
 
 ## CSharp ##
