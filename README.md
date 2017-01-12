@@ -60,6 +60,7 @@ https://hackage.haskell.org/package/prof2dot
 
 
 ## Generic ##
+https://github.com/atomist/rug
 http://www.antlr.org
 
 http://savannah.gnu.org/projects/bison/
