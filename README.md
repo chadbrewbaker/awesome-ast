@@ -41,51 +41,52 @@ clang-check -ast-dump hello.c
 
 
 ## CSharp ##
-http://blog.ptsecurity.com/2016/06/theory-and-practice-of-source-code.html (Also Java and PHP)
+[Roslyn HOWTO](http://blog.ptsecurity.com/2016/06/theory-and-practice-of-source-code.html)
 
 ## CSV ##
-http://papaparse.com
+[Papa Parse](http://papaparse.co)m
 
 ## English ##
-https://github.com/btford/write-good
+[write-good (javascript)](https://github.com/btford/write-good)
 
-http://www.nltk.org
+[NLTK (Python)](http://www.nltk.org)
 
 ## Excel ##
 
 ## Haskell ##
-https://hackage.haskell.org/package/haskell-tools-ast
-https://hackage.haskell.org/package/haskell-src-exts-1.18.0
-https://ghc.haskell.org/trac/ghc/wiki/GhcApi
-http://www.stephendiehl.com/posts/ghc_02.html
-https://github.com/edsko/ghc-dump-tree
-http://felsin9.de/nnis/ghc-vis/#basic-usage
-https://hackage.haskell.org/package/prof2dot
-
+[haskell-tools-ast](https://hackage.haskell.org/package/haskell-tools-ast)
+[haskell-src-exts](https://hackage.haskell.org/package/haskell-src-exts-1.18.0)
+[GHC API](https://ghc.haskell.org/trac/ghc/wiki/GhcApi)
+[GHC tutorial](http://www.stephendiehl.com/posts/ghc_02.html)
+[ghc-dump-tree](https://github.com/edsko/ghc-dump-tree)
+[ghc-viz](http://felsin9.de/nnis/ghc-vis/#basic-usage)
+[prof2dot](https://hackage.haskell.org/package/prof2dot)
+[Glance](https://github.com/rgleichman/glance)
 
 ## Generic ##
-https://github.com/atomist/rug
-http://www.antlr.org
+[Atomist rug](https://github.com/atomist/rug)
+[ANTLR](http://www.antlr.org)
+[ANTLR command line](https://theantlrguy.atlassian.net/wiki/pages/viewpage.action?pageId=2687267)
 
-http://savannah.gnu.org/projects/bison/
-https://www.gnu.org/software/flex/
-
-
-https://github.com/nathansobo/treetop/tree/master
+[Bison](http://savannah.gnu.org/projects/bison/)
+[Flex](https://www.gnu.org/software/flex/)
 
 
-https://plugins.jetbrains.com/idea/plugin/6606-grammar-kit
+[Treetop](https://github.com/nathansobo/treetop/tree/maste)r
 
-https://github.com/codelion/gramtest
-http://rubular.com
-https://shancarter.github.io/mr-data-converter/
 
-https://github.com/UpstandingHackers/hammer
+[JetBrainst GrammarKit](https://plugins.jetbrains.com/idea/plugin/6606-grammar-kit)
+
+[Gramtest BNF generator](https://github.com/codelion/gramtest)
+[Rubular Ruby Regexp](http://rubular.com)
+[Mr Data Converter CSV,JSON,Excel,..](https://shancarter.github.io/mr-data-converter/)
+
+[Hammer secure parser generator](https://github.com/UpstandingHackers/hammer)
 
 
 
 ## Go ##
-https://golang.org/pkg/go/ast/
+[ast](https://golang.org/pkg/go/ast/)
 
 
 
@@ -93,27 +94,27 @@ https://golang.org/pkg/go/ast/
 
 
 ## Java ##
-https://github.com/javaparser/javaparser
-https://commons.apache.org/proper/commons-lang/
+[javaparser](https://github.com/javaparser/javaparser)
+[Apache Commons-lang](https://commons.apache.org/proper/commons-lang/)
 
-https://github.com/JetBrains/jdk8u_langtools/blob/master/src/share/sample/javac/processing/src/CheckNamesProcessor.java
-https://github.com/JetBrains/uast
-https://github.com/JetBrains/intellij-community
-http://www.jetbrains.org/display/IJOS/Writing+Plug-ins
+[JetBrains JDKLangTools](https://github.com/JetBrains/jdk8u_langtools/blob/master/src/share/sample/javac/processing/src/CheckNamesProcessor.java)
+[JetBrains uast](https://github.com/JetBrains/uast)
+[JetBrains IntelliJ](https://github.com/JetBrains/intellij-community)
+[JetBrains IntelliJ Plugin HOWTO](http://www.jetbrains.org/display/IJOS/Writing+Plug-ins)
 
 
 
 
 ## Javascript ##
-http://esprima.org
-http://lisperator.net/uglifyjs/parser
+[ESPrima](http://esprima.org)
+[uglifyjs parser](http://lisperator.net/uglifyjs/parser)
 
 ## JSON ##
-https://www.npmjs.com/package/ast-match
+[ast-match](https://www.npmjs.com/package/ast-match)
 
 ## Python  ##
-https://docs.python.org/2/library/ast.html
-https://github.com/JetBrains/python-skeletons
+[ast](https://docs.python.org/2/library/ast.html)
+[python-skeletons](https://github.com/JetBrains/python-skeletons)
 
 ## Ruby ##
 ~~~bash
@@ -123,20 +124,20 @@ ruby --dump insns foo.rb
 ~~~ruby
 RubyVM::InstructionSequence
 ~~~
-https://github.com/seattlerb/ruby_parser
-https://github.com/jimweirich/sorcerer
+[ruby\_parser](https://github.com/seattlerb/ruby_parser)
+[sorerer](https://github.com/jimweirich/sorcerer)
 
 
 ## Scala ##
-http://lampsvn.epfl.ch/trac/scala/browser/scala/trunk/src/compiler/scala/tools/nsc/ast/parser
-https://github.com/wolfe-pack/wolfe/wiki/Scala-AST-reference
+[scalac](http://lampsvn.epfl.ch/trac/scala/browser/scala/trunk/src/compiler/scala/tools/nsc/ast/parser)
+[Scala AST reference](https://github.com/wolfe-pack/wolfe/wiki/Scala-AST-reference)
 
 ## SMT-LIB ##
-http://hackage.haskell.org/package/smt-lib
-http://leventerkok.github.io/sbv/
-http://ahorn.github.io/smt-kit/
-https://github.com/delcypher/nsolv
-http://fmv.jku.at/ddsmt/
+[smt-lib (Haskell)](http://hackage.haskell.org/package/smt-lib)
+[sbv (Haskell)](http://leventerkok.github.io/sbv/)
+[smt-kit](http://ahorn.github.io/smt-kit/)
+[nsolv](https://github.com/delcypher/nsolv)
+[ddsmt](http://fmv.jku.at/ddsmt/)
 
 ## SQL ##
 https://github.com/codeschool/sqlite-parser
