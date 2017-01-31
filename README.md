@@ -38,6 +38,8 @@ http://stackoverflow.com/questions/18560019/how-to-view-clang-ast
 clang -emit-ast hello.c  #binary output to hello.ast
 clang-check -ast-dump hello.c
 ~~~
+[Clang AST Matchers](http://clang.llvm.org/docs/LibASTMatchersReference.html)
+
 
 
 ## CSharp ##

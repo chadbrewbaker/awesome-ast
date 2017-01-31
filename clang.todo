@@ -1,0 +1,14 @@
+
+Reproduce https://github.com/eliben/llvm-clang-samples/blob/master/src_clang/tooling_sample.cpp
+Simple function that annotates functions with comments
+
+print all “constexpr”
+
+replace “constexpr” with value
+
+print all  “if (constexpr)”
+
+replace “if(constexpr){}else{}” with corresponding if/else body
+
+
+Add as atom plugin to  https://atom.io/packages/atom-clang
