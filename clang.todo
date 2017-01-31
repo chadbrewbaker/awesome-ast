@@ -1,12 +1,26 @@
 
 Reproduce https://github.com/eliben/llvm-clang-samples/blob/master/src_clang/tooling_sample.cpp
 Simple function that annotates functions with comments
+Done. Called "annotate". Also annotates if/else blocks
+
+from /llvm/tools/clang
+buildcustom.sh
+test.c
+tools/extra/CMakeLists.txt
+tools/extra/annotate/Annotate.cpp
+tools/extra/annotate/CMakeLists.txt
+
+
 
 print all “constexpr”
+Not sure how to do this without keyword
+
+
 
 replace “constexpr” with value
 
 print all  “if (constexpr)”
+Half done. See above.
 
 replace “if(constexpr){}else{}” with corresponding if/else body
 
