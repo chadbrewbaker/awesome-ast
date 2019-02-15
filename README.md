@@ -74,7 +74,12 @@ clang-check -ast-dump hello.c
 [Flex](https://www.gnu.org/software/flex/)
 
 
-[Treetop](https://github.com/nathansobo/treetop/tree/maste)r
+[Nom Parser Combinator](https://github.com/Geal/nom)
+
+[Treetop](https://github.com/nathansobo/treetop/tree/master)
+[Tree Sitter](https://tree-sitter.github.io/tree-sitter/)
+[Tree Sitter Talk](https://www.youtube.com/watch?v=0CGzC_iss-8)
+
 
 
 [JetBrainst GrammarKit](https://plugins.jetbrains.com/idea/plugin/6606-grammar-kit)
@@ -84,8 +89,7 @@ clang-check -ast-dump hello.c
 [Mr Data Converter CSV,JSON,Excel,..](https://shancarter.github.io/mr-data-converter/)
 
 [Hammer secure parser generator](https://github.com/UpstandingHackers/hammer)
-
-
+[Parsing Expression Grammar Template Library](https://github.com/taocpp/PEGTL)
 
 ## Go ##
 [ast](https://golang.org/pkg/go/ast/)
@@ -113,6 +117,10 @@ clang-check -ast-dump hello.c
 
 ## JSON ##
 [ast-match](https://www.npmjs.com/package/ast-match)
+[Rapid JSON](https://github.com/Tencent/rapidjson)
+[sajson](https://github.com/chadaustin/sajson)
+
+
 
 ## Python  ##
 [ast](https://docs.python.org/2/library/ast.html)
@@ -151,6 +159,7 @@ https://github.com/lfittl/pg_query
 nokogiri
 xslt
 
-
-
-
+## Talks ##
+[Hiking Through The Javascript Forest](https://channel9.msdn.com/Blogs/seattlejs/2016-01-14-02)
+[The Hidden Benefits of Static Analysis](https://www.youtube.com/watch?v=3ZqTvexCtZM)
+[ASTs for Beginners](https://www.youtube.com/watch?v=CFQBHy8RCpg)
