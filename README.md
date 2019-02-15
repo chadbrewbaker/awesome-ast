@@ -114,6 +114,8 @@ clang-check -ast-dump hello.c
 ## Javascript ##
 [ESPrima](http://esprima.org)
 [uglifyjs parser](http://lisperator.net/uglifyjs/parser)
+[Babel](https://github.com/babel/babel)
+[Recast](https://github.com/benjamn/recast)
 
 ## JSON ##
 [ast-match](https://www.npmjs.com/package/ast-match)
@@ -160,6 +162,7 @@ nokogiri
 xslt
 
 ## Talks ##
+[Polyhedral Analysis](http://www.pollylabs.org/education.html)
 [Hiking Through The Javascript Forest](https://channel9.msdn.com/Blogs/seattlejs/2016-01-14-02)
 [The Hidden Benefits of Static Analysis](https://www.youtube.com/watch?v=3ZqTvexCtZM)
 [ASTs for Beginners](https://www.youtube.com/watch?v=CFQBHy8RCpg)
